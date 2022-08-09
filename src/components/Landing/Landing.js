@@ -144,7 +144,7 @@ function Landing() {
               {headerData.resumePdf && (
                 <a
                   href={headerData.resumePdf}
-                  download="resume"
+                  download="Joaquin-Grachot-CV"
                   target="_blank"
                   rel="noreferrer"
                 >
