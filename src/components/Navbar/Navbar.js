@@ -179,7 +179,7 @@ function Navbar() {
               <NavLink to="/" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
                   <IoHomeSharp className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Home</span>
+                  <span className={classes.drawerLinks}>Inicio</span>
                 </div>
               </NavLink>
             </Fade>
@@ -188,7 +188,7 @@ function Navbar() {
               <NavLink to="/#about" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
                   <FaUser className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>About</span>
+                  <span className={classes.drawerLinks}>Intro</span>
                 </div>
               </NavLink>
             </Fade>
@@ -197,25 +197,7 @@ function Navbar() {
               <NavLink to="/#resume" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
                   <HiDocumentText className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Resume</span>
-                </div>
-              </NavLink>
-            </Fade>
-
-            <Fade left>
-              <NavLink to="/#services" smooth={true} spy="true" duration={2000}>
-                <div className={classes.drawerItem}>
-                  <BsFillGearFill className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Services</span>
-                </div>
-              </NavLink>
-            </Fade>
-
-            <Fade left>
-              <NavLink to="/#blog" smooth={true} spy="true" duration={2000}>
-                <div className={classes.drawerItem}>
-                  <FaFolderOpen className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Blog</span>
+                  <span className={classes.drawerLinks}>Info</span>
                 </div>
               </NavLink>
             </Fade>
@@ -224,7 +206,7 @@ function Navbar() {
               <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
                   <MdPhone className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Contact</span>
+                  <span className={classes.drawerLinks}>Contacto</span>
                 </div>
               </NavLink>
             </Fade>
